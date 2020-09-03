@@ -1,0 +1,46 @@
+.postprofile {
+    margin: 5px 0 10px -10px;
+    border: 1px solid #c3c3c3;
+    border-width: 0 1px 0 0;
+    float: left;
+    display: inline;
+}
+
+.postprofile img {
+    position: relative;
+}
+
+.postbody {
+    padding: 0;
+    line-height: 1.48em;
+    float: right;
+    position: relative;
+}
+
+.avatar {
+    border-radius: 3px;
+    transition: 0.7s;
+}
+
+.avatar:hover {
+    transition: 0.7s;
+    opacity: 0.30;
+}
+
+@media only screen and (max-width: 750px),
+only screen and (max-device-width: 750px) {
+    .profile-rank {
+        display: none !important;
+    }
+    .postprofile {
+        width: 100% !important;
+        float: initial !important;
+    }
+    .postbody {
+        margin-top: 4%;
+        clear: both;
+        border-top: 1px solid #c3c3c3;
+        float: initial !important;
+        width: 100% !important;
+    }
+}
